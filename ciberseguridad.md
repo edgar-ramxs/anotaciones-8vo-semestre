@@ -105,17 +105,78 @@ fecha: 21/08/23
 
 ## Clase 8
 fecha: 22/08/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/qeI2QPPO0JR2rvdgfAuYCGH4gn_SBKiBlGuDX_Mprx_t-Gss0HK3bhiDlM8mHMsINUxxOF9aPUV6uroh.8fFQX2vFPQzS1W8D)
+
+Primera evaluacion -> Dia Martes
+
+* Vulnerabilidad: 
+	- Fallos o deficiencias de un programa
+	- agujeros de seguridad
+	- exploits
+	- la empresa debe ser consiente de este riesgo y mantener una actitud preventiva
+	- Diferencia entre vulnerabilidad, riesgo, incidente, problema.
+
+Tipos de Vulnerabilidades
++ Sotfware: fallas del sistema operativo
++ Hardware: falla de seguridad que afecte a algun componente fisico del sistema computacional como CPU, discos, memoria, BIOS, etc. *Actualizar el firmware o dirver*
+
+[Enlace](https://owasp.org/www-project-top-ten/)
+
+Clasificacion de Vulnerabilidades [01:04:00]
+*Vulnerability Distribution By CVSS Scores*
+[Ejemplo](https://first.org/cvss/v4.0/examples)
+
+
+Riesgo -> Probabilidad de una amenza hacia un activo mediante una vulnerabilidad.
+*Si quitas el activo, no hay riesgo*
+
+Triada de la ciberseguridad [01:18:00]
+    - Confidencialidad
+    - Disponibilidad
+    - Integridad
+
+
+## Clase 9
+fecha: 24/08/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/0KXVpQfc4mOmznHwP1KQeBKhk1XDZJlMLFi8c8FkqWMZaYfTA0-q3wvwk6E6Z3ER8RCoLrpmig8Ufxm-.9qs-4Boc4X7HRAEs)
+
+Kahook
++ Dentro de la evolucion se detecta que:
+    - En los 2010 inicia la gestion de seguridad con planes de infraestructura critica
++ Podria llevar el riesgo a cero, siempre y cuando elimine el activo asociado.
+    - Verdadero
++ un hacker seria un profesional con habilidades de programacion paraasegurar que las redes no sean vulnerables
+
+## Clase 10
+fecha: 29/08/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/fCug4A4Myn5yF866iPfNAEeeWbB3Zl-re2T_lUddeOMCefdch0IDGEsVRtwfnZxhHUeypE1DyakrCAbc.7jTtkgm07Rx4HhUe)
 
 
 
+## Clase 11
+fecha: 31/08/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/E1FNRopPzW7hl712Lsycg8r9siAwvSyCARDJnlqWi5pw6ubj1Sz302aadZqF4YWxVGipDaKgIrlSc-DF.kwJssMhnFCAG-qK0)
 
 
 
+## Clase 12
+fecha: 05/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/XKpLHumLjc5a8YLeXPdYjXCUJTEFOai29dOLIwiasGyTBW_YSJpLfJTPiV2zSVxvVE8jgCYvIlGJmPyl.QNUnFnf3IH0tCghY)
+
+
+## Clase 13
+fecha: 07/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/NiQCPEFrkp9U79Uqg5DWDHuOApPYwuYXLNjsWKfT6iKD8KLGSvMdbb2L_uCF7AFtRNBJQ-jDMy9KVaXd.yom7OVvOG8UWBmTP)
 
 
 
- 
+## Clase 14
+fecha: 11/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/SVCa-OXmwQVQeobmmpZrL02GHviOunVab9elyyLwsKkpYrSALd2KN2-Y9nnXUst33litievh-XefKcS1.fo0kyiDSnZYN4qVM)
 
+## Clase 15
+fecha: 12/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/TiLjL8-pFNixZvzu9-ZMNArdrwYdKX29dF26kZEFSj8wLnEi65baNDbGatwFoMHfHbbLG2_UYoXnzrhg.R9nxhwLxu1LnyaGM)
 
 
 
