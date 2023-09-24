@@ -151,35 +151,224 @@ Kahook
 fecha: 29/08/2023
 [Enlace](https://unab-cl.zoom.us/rec/play/fCug4A4Myn5yF866iPfNAEeeWbB3Zl-re2T_lUddeOMCefdch0IDGEsVRtwfnZxhHUeypE1DyakrCAbc.7jTtkgm07Rx4HhUe)
 
+### Ataques [27:00]
++ *Melissa (1999)* : Primer malware por correo electronico.
++ *I love You (2000)* igul que melesia
++ *Sasser y Netsky (2004)* : un gusano y un virus
++ *Stuxnet (2010)*: un gusano, el primer ciberataque en plantas de uranio en irán.
++ *Ciberataque a RSA(2011)*: primeros ciberataques coorporativos.
++  *Shadow Brokers (2016)* : APT, colectivos patrocinados por Gobiernos. Filtraron archivos para probar lazos entre Equation Group con la NSA. [WannaCry]
++ *Mirai (2016)* :  Botnet que ataco a Twitter, spotify, netflix. Publicaron su propio codigo 
++ *WannaCry (2017)* : Un ransomware peligroso que filtraba informacion luego de extorcionar a las compañias.
++ *NotPetya (2017)* : virus que infectaba computadora que operaba como ransomware. Se cree que fue Rusia.
++ *Cambridge Analytica (2018)* : Campaña politica gracias al analisis de datos sin consentimeinto.
++ *Ciberataque a Solarwinds (2020)*: Fue 'culpa de un becario'. Contraseña123
+
+CiberAtaque a Banco Estado en 2020 [01:24:00]
+Chile para 5 lugar y 10 lugar para hacer ciberataques 2018.
+Ciberseguridad en Chile [01:32:00]
 
 
 ## Clase 11
 fecha: 31/08/2023
 [Enlace](https://unab-cl.zoom.us/rec/play/E1FNRopPzW7hl712Lsycg8r9siAwvSyCARDJnlqWi5pw6ubj1Sz302aadZqF4YWxVGipDaKgIrlSc-DF.kwJssMhnFCAG-qK0)
-
-
+> NADA
 
 ## Clase 12
-fecha: 05/09/2023
-[Enlace](https://unab-cl.zoom.us/rec/play/XKpLHumLjc5a8YLeXPdYjXCUJTEFOai29dOLIwiasGyTBW_YSJpLfJTPiV2zSVxvVE8jgCYvIlGJmPyl.QNUnFnf3IH0tCghY)
+fecha: 04/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/pgJvtboc-wcnolzccrWtEfWuXIf8qw_bTQ0wIxHOiHR5lca_WWbQtKNvDfDICXvvxEOynKY1HRyXvDSH.-U8bVNrn_lFYDR-o)
+
+### Fases de un ataque informatico [00:30:00]
+Cyber Kill Chain o Ciclo de vida del malware, hacer focus al problema   
+Lockheed Martin Corporation
+> Arqui directory, servidor dominio en windows. login 
+> Fases -> ¿Cómo utilizarla? [00:47:00]
+#### Reconocimiento
+- Se recopila informacion sobre el objetivo
+#### Preparacion
+- prepara el ataque hacia un objetivo especifico. 
+- Busca la mejor tecnica para atacar
+- toma en cuenta el tipo de victima va a atacar.    
+#### Distribucion
+- Transmision del ataque
+- via de infeccion del ataque
+- por lo general, phihing.
+- Ejercicios de la empresa, resultados en charlas.
+#### Explotacion 
+- Etapa donde el atacante compromete el equipo infectado y su red.
+- Puerta abierta
+- soluciones y antivirus actualizados
+- Todo es urgente [01:04:00] CVSS
+- CVSS 4.0 priorizar la gravedad del asunto 
+#### Instalacion 
+- Instalacion del malware en el computador de la victima. No entra phishing.
+#### Comando y control 
+- Cuenta con el control de la maquina victima teniendo el poder de sustraer credenciales, tomar capturasde pantalla, llevarse documentacion e instalar programas.
+#### Acciones sobre los objetivos.
+- Fase final
+- Kill Chain es ciclica
+- expantir su accion malicioso hacia mas objetivos.
+- para detenerla es estar comprometido con la ciberseguridad.
+
+* Vector de ataque: es un metodo que utiliza una amenaza para atacar un sistema.
+* Exploits: es cualquier ataque que aprovechha las vulnerabilidades de las aplicaciones, las redes, los sistemas operativos o el hardware. 
+* passwords default
+* brute force de passords -> muy lento para buscar contraseñas.
 
 
 ## Clase 13
-fecha: 07/09/2023
-[Enlace](https://unab-cl.zoom.us/rec/play/NiQCPEFrkp9U79Uqg5DWDHuOApPYwuYXLNjsWKfT6iKD8KLGSvMdbb2L_uCF7AFtRNBJQ-jDMy9KVaXd.yom7OVvOG8UWBmTP)
+fecha: 05/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/XKpLHumLjc5a8YLeXPdYjXCUJTEFOai29dOLIwiasGyTBW_YSJpLfJTPiV2zSVxvVE8jgCYvIlGJmPyl.QNUnFnf3IH0tCghY)
 
++ Robo de passwords:
+    - ing social 
+    - accesos wifi inseguros
+    - personal que deja la empresa
+    - eliminar cuanta vs deshabilitar cuenta vs bloquear cuenta
+    - [SAM L2 SAML 2.0](https://auth0.com/es/intro-to-iam/what-is-saml)
 
++ Interccion de sesion
+    - API
+    -  requiere acceso al canal de comunicacion entre las dos computadoras, por lo tanto, el atacante primero tiene que penetrar el perimetro de la red, entrar a la red local, y entonces interceptar la transmision.
++ Phishing 
+    - sitios falsos 
+    - falsificar identidad
+    - robar credenciales
+    - webshark
++ Sitios infectados con malware
+    - sitios hacheados que le agregan scripts
+    - sitios hechos por atacantes
+    - Javascript o un ActiveX o un applt de Java.
++ Ataque a aplicaciones web
+    - Vulnerabilidades
+    - mal diseño
+    - OWASP
+    - SQL injection y cross-site scripting
+    - Raymundo [01:24:00]
++ Virus, Troyanos y Gusanos
+    - malwares
+    - destruir datos o causar problemas
++ Ingeneria Social
+    - engañar
+    - robarle la informacion
+    - infectar equipo por medio de la manipulacion
++ Ataque inalambrico
+    - nodos en la red
+    - protocolos de encriptacion
+    -  redes locales o externas 
++ Robo fisico de equipos
+    - Robos a nivel coorporativos
+    - No se permiten a usuarios descarguen datos
++ Acceso fisico a la red 
+    - dejar un computador encondido en el entorno via remota
+    - configuracion corecta ded los nodos dentro de la red
+
+##### Defensa [01:42:00]
+- Prevencion de intrusion
+- Deteccion de intrusion
+- Prevencion de extraccion
+- Eliminacion de intrusion
+- Prevencion de denegacion
+  
 
 ## Clase 14
-fecha: 11/09/2023
-[Enlace](https://unab-cl.zoom.us/rec/play/SVCa-OXmwQVQeobmmpZrL02GHviOunVab9elyyLwsKkpYrSALd2KN2-Y9nnXUst33litievh-XefKcS1.fo0kyiDSnZYN4qVM)
+fecha: 07/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/NiQCPEFrkp9U79Uqg5DWDHuOApPYwuYXLNjsWKfT6iKD8KLGSvMdbb2L_uCF7AFtRNBJQ-jDMy9KVaXd.yom7OVvOG8UWBmTP)
+### 27 Controles Criticos de Ciberseguridad [27:00]
+1) Firewalls, Routers y Switces: [38:00]
+    - Firewall separa el inferior del exterior de nuestro peritmetro
+    - Puertas traseras
+2) Implementacion segura de DNS [44:00]
+    - si la empresa tiene pocos usuarios y poco trafico de http y correo usar los DNS publicos como los de Google
+    - Si la empresa tiene muchos usuarios y trafico, tienes que tener tus propios servidores DNS
+    - DNS hijacking, el atacante redirige el trafico a su propia pagina
+    - Ataque "man in the middle"
+    - Arbol de DNS
+3) Administracion de passwords [48:00]
+    - Uno de los vectores de ataque mas usados
+    - Escaneo de :
+        + Vulnerabilidades en passwords
+        + politicas de passwords
+    - Eliminacion de passwords defaults
+    - Uso de autenticacion two factor 
+        + en servidores
+        + en PCs
+4) Inventario de Hardware [51:00]
+    - control y conocimiento de todos los dispositivos de hardware existentes en la red
+    - disminuir los riesgos asociados a la existencia de equipos no autorizados
+    - Actualizacion
+5) Inventario de Software [52:00]
+    - Actulizacion es dificil ya que la existencia de muchos vulnerabilidades de los sotfware en la red es significativa. Considerando ue el usuario puede descargarlos e instalarlos en sus PCs.
+6) Inventario de puertos y servicios [53:00]
+    - Existen protocolos que:
+        + se deben permitir para el funcionamiento del equipo en los procesos de la empresa
+        + nunca deben estar activos
+    - Por lo tanto, existen protocolos mas vulnerables ue otros. Esto sugiere que el protocolo que no tenga un uso especifico debe ser prohibido.
+    - Symantec Altiris : Reporte a un servidor centralizado para hacer un inventario TI    
+7) Inventario GUIs [59:00]
+    - GUI <=> Grapical User Interface
+    - las interfaces que acceptan cledenciales como usuario y contraseñas son una clara vulnerabilidad.
+    - pequeños servidores
+8) Escaneo y remediacion de vulnerabilidades [59:30]
+    - Vulnerabilidad es un error de programacion que permite al atacante su propio programa en una variable del programa vulnerable
+    - Se toma control de la maquina ue tiene el programa 
+    - SE detecta estos programas con un alto grado de precision
+    - ftp con linux <> anonimus
+    - Los cambios cuestan dinero, pero ¿ vale la pena la inversion ?
+Controles -> Semana del 18/09 
+Tenable 
 
 ## Clase 15
+fecha: 11/09/2023
+[Enlace](https://unab-cl.zoom.us/rec/play/SVCa-OXmwQVQeobmmpZrL02GHviOunVab9elyyLwsKkpYrSALd2KN2-Y9nnXUst33litievh-XefKcS1.fo0kyiDSnZYN4qVM) 
+
+9) Hardening de Equipos [01:55:00]
+    - variables de hardware y software vienen por default y son vulnerables
+    - politicas de uso de passwords
+    - scanner de vulnearbilidades para automatizar el proceso
+    - policy compliance
+10) Web Aplication Firewall []
+    - sistemas SaaS
+    - muy usando por lo tanto muy propenso a ser atacado 
+    - Nube
+    - Modelo Osi, capa 7
+12) Antimalware [01:22:00]
+    - Instalar un antivirus 
+    - Verificar el funcionamiento del firewall personal
+    - con esos dos, se puede mantener mas control de la maquina para evitar ue sea atacada
+13) Proteccion de plataformas moviles
+    - moviles y pcs para acceder a datos
+    - los usuarios no configuran esas herramientas de uso, moviles tabletas, pc.
+    - politicas de la empresa
+    - picker <> mercado libre, lider, jumbo, easy.
+    - generar una politica para la empresa
+14) Proteccion de redes inalambricas [01:30:00]
+    - transferencia de datos 
+    - tiempo para atacar favorable
+    - tratar de romper los protocolos de red 
+    - redes wifi gratis
+15) Filtrado de email y sitios web
+    - phising
+    - email masivos para estafas o descargar pdf maliciosos
+    - antispam
+    - dominios en listas negras
+    - 
+*Proxy de Chrome* [01:45:00]
+
+## Clase 16
 fecha: 12/09/2023
 [Enlace](https://unab-cl.zoom.us/rec/play/TiLjL8-pFNixZvzu9-ZMNArdrwYdKX29dF26kZEFSj8wLnEi65baNDbGatwFoMHfHbbLG2_UYoXnzrhg.R9nxhwLxu1LnyaGM)
 
+### Solemne 1. Martes, 3 de Octubre.
 
-
-
+16) Sistemas de prevencion y deteccio de instrusion [59:00]
+    - software que detectan comportamiento sospechoso en el trafico de nuestra red.
+    - IPS bloquear trafico.
+    - IDS vs IPS [01:00:00]
+    -  analisis <IDS> potencialmente sospechosa
+    - que es el SIEM?
+17) Analisis de registros 
+    - Bitacora de logs (lista de eventos)
+    - hay que automatizar con software el analisis de esa bitacora de logs
 
 
