@@ -1,6 +1,6 @@
 # Ciberseguirdad NRC 7052 
 
-## Clase 1
+## Clase 1 
 Fecha: 07/08/2023
 [Enlace](https://unab-cl.zoom.us/rec/play/PtaGtiY3boSqM8wWmBdmEpSOD6uyPwhN5llufTbAJ3dMq0Km4i4x3Oj30u26OuS6PTQ-yAy36czBAn-T.uGoLf0KigRfWHdZ2)
 
