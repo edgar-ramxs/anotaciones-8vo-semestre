@@ -19,4 +19,32 @@
     - recoleccion de los datos
     - modelo de recomendaciones
     - post procesamiento de la recomendacion
-    -
+      * en este punto se suelen incluir ciertas reglas para mejorar las sugerencias y evitar las sugerencias inutiles. 
+    - Modelos online: Operar en tiempo real, cuando ingrese el usuario se tiene que recomendar algun tipo de ejercicio. 
+      * procesamiento en tiempo real
+      * costo de los algoritmos para el analisis del modelo (requerimiento de computo optimizados)
+    - interfaz de usuario
+
++ Enfoques
+  - Basados en popularidad (Estadisticas)
+  - Collaborative Filtering (Filtrado colaborativo) 
+    * comportamiento de usuarios similares
+  - Content-based Filterin (Filtado basdo en el contenido)
+    * contenido del ejercicio en si
+  - Hibridos ( Combinacion de dos o mas enfoques )
+
+> Algebra lineal, tecnicas heuristicas, deep learning o redes neuronales. Factorizacion de matrices
+
+#### Filtrado colaborativo
+- usuarios dan rating a un elemento
+- patrones de los usuarios
+- caracteristicas con elementos o usuarios similares
+- crear relaciones entre individuos
+- datos historicos (co relacion linear, similitud de coseno)
+- tecnicas de DL o ML para predecir los raiting como clasificador
+
+Filtrado colaborativo basado en Memoria:
+> User-item filtering : De un usuario se buscan patrones que los identifique con otros usuarios, ya que se le puede recomendar elementos que los otros usuarios les han gustado. 
+> item-item filtering : Matriz de usuarios y elementos. Similitudes entre elementos que hayan sido rankeados
+
+Similitud coseno 
