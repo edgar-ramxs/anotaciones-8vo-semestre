@@ -60,3 +60,10 @@ filtrado colaborativo basado en modelos [52:00]
 
 
 
+## [UWE en Sistema de Recomendación de Objetos de Aprendizaje. Aplicando Ingeniería Web: Un Método en Caso de Estudio](http://40.71.171.92/bitstream/handle/123456789/667/relais-v2-n3-137-143.pdf?sequence=1&isAllowed=y)
+
++ UWE (UML Web Engineering), UML, Estereotipo, AGORA, Objetos de Aprendizaje. 
+
+Introduccion
+> La aplicación Web sugiere a los usuarios una colección de recursos educativos que pueden resultar útiles para la creación de un Objeto de Aprendizaje compuesto.
+
