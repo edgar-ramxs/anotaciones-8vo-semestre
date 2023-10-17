@@ -48,3 +48,15 @@ Filtrado colaborativo basado en Memoria:
 > item-item filtering : Matriz de usuarios y elementos. Similitudes entre elementos que hayan sido rankeados
 
 Similitud coseno 
+
+Modelos basados en contenido 
+- Caracteristicas: genero, año, texto, titulo, descripcion, tablas de contenido con las que se pueden usuar un NLP. 
+- keywords
+- Ventajas y desventajas [42:00]
+- extraccion de features: TF_IDF
+
+
+filtrado colaborativo basado en modelos [52:00]
+
+
+
